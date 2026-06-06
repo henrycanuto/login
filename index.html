@@ -16,16 +16,20 @@
                 Entre em sua conta
             </h1>
             <div id="login">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Digite seu email">
+                <form action="" onsubmit="enviarFormulario(event)">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Digite seu email">
 
-                <label for="senha">Senha</label>
-                <input type="password" id="senha" placeholder="Digite sua senha">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha">
 
-                <button type="submit">Confirmar</button>
+                    <button type="submit">Confirmar</button>
+                </form>
             </div>
         </section>
     </main>
+
+    <script src="script.js"></script>
 
 </body>
 
